@@ -8,7 +8,7 @@
 	],
 	"scripts": {
 		"dev": "rimraf .storybook/.cache dist storybook-static && storybook dev -p 6006",
-		"build": "storybook build --docs",
+		"build": "storybook build",
 		"preview-storybook": "serve storybook-static",
 		"clean": "rimraf .turbo && rimraf node_modules",
 		"lint": "eslint ./stories/*.stories.tsx --max-warnings 0",
